@@ -1,0 +1,5 @@
+create table users (username varchar (20) primary key, password varchar(20));
+insert into users values('&username','&password');
+
+create table address(username varchar(20), street varchar(15), pincode number (10), country char(15) ,state char(15), phone number (10));
+insert into address values('&username','&street',&pincode,'&country','&state',&phone);
